@@ -1,0 +1,21 @@
+.imagen{
+    border-style:ridge;
+    border-color: pink;
+    border-width: 20px;
+    text-align: center;
+
+}
+
+.card1{
+   margin-left: 500px;
+}
+
+.titulo{
+    font-style: italic;
+    color: palevioletred;
+    
+}
+
+.texto{
+    font-style: italic;
+}
