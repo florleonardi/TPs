@@ -1,0 +1,13 @@
+.nosotros {
+    background-color: pink;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    border-style: inset;
+    border-color: rgb(224, 81, 148);
+}
+
+.search{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
