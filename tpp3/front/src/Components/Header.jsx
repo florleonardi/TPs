@@ -4,14 +4,13 @@ import Container from 'react-bootstrap/Container';
 import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import '../css/Header.css'
 const Header = () => {
   return (
     <Navbar bg="Light" expand="lg">
     <Container fluid  className='nosotros'>
-      <Navbar.Brand href="#">INICIO</Navbar.Brand>
+      <Navbar.Brand href="/">HOME</Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav
@@ -19,16 +18,10 @@ const Header = () => {
           style={{ maxHeight: '100px' }}
           navbarScroll
         >
-          <Nav.Link href="#action1">SOBRE NOSOTROS</Nav.Link>
-          <Nav.Link href="#action2">PRODUCTOS</Nav.Link>
-          <NavDropdown title="SERVICIOS" id="navbarScrollingDropdown">
-            <NavDropdown.Item href="#action3">Sub 1 Test 3</NavDropdown.Item>
-            <NavDropdown.Item href="#action4">Sub 2 Test 3</NavDropdown.Item>
-            <NavDropdown.Divider />
-            <NavDropdown.Item href="#action5">Sub 3 Test 3</NavDropdown.Item>
-          </NavDropdown>
-          <Nav.Link href="#" disabled>
-            CONTACTOS
+          <Nav.Link href="/About">ABOUT ME</Nav.Link>
+          
+          <Nav.Link href="/Contact">
+            CONTACT US
           </Nav.Link>
         </Nav>
         <Form className="d-flex">
